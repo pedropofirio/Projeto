@@ -4,7 +4,7 @@
 }
 :root {
   --text-color: white;
-  --bg-url: url(assets/bg-mobile.jpg);
+  --bg-url: url(assets/bg-desktop.jpg);
   --stroke-colo: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --sufacer-colo-hover: rgba(0, 0, 0, 0.02);
@@ -13,7 +13,7 @@
 }
 .light {
   --text-color: black;
-  --bg-url: url(assets/bg-mobile-light.jpg);
+  --bg-url: url(assets/bg-desktop-light.jpg);
   --stroke-colo: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --sufacer-colo-hover: rgba(0, 0, 0, 0.02);
@@ -31,6 +31,7 @@ background-size: cover;*/
   background: var(--bg-url) no-repeat top center;
   height: 100vh;
   background-size: cover;
+  background-position: auto;
 }
 
 body * {
