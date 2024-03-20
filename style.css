@@ -88,10 +88,10 @@ body * {
   left: 0px;
   z-index: 1;
   transform: translateY(-50%);
+  animation: slide-back 0.5s forwards;
 }
 .light #switch button {
-  right: 0px;
-  left: initial;
+  animation: slide-in 0.5s forwards;
 }
 #switch span {
   display: block;
@@ -168,5 +168,21 @@ footer {
 
   .light {
     --bg-url: url(assets/bg-desktop-light.jpg);
+  }
+}
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
