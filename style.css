@@ -28,8 +28,9 @@ background-position: top center;
 background-size: cover;*/
 
   /*background: color image repear posicion size*/
-  background: var(--bg-url) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center;
   height: 100vh;
+  background-size: cover;
 }
 
 body * {
