@@ -29,6 +29,7 @@ background-size: cover;*/
 
   /*background: color image repear posicion size*/
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
